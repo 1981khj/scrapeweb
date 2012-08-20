@@ -2,8 +2,7 @@
   "name": "scrape",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-	"npm": ">= 1.0.0",
+  "dependencies": {	
     "express": "2.5.11",
     "jade": ">= 0.0.1",
 	"request": ">= 2.0.0",
@@ -12,7 +11,8 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "0.8.6"
+    "node": "0.8.x",
+	"npm": "1.1.x"
   },
   "author": "Luke Kim <1981_khj@naver.com>",
   "description": "scrape web page"
